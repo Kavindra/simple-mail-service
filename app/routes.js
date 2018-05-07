@@ -136,7 +136,7 @@ module.exports = function(app) {
                 email: data.from
             },
             content: [{
-                type: 'text/plain',
+                type: 'text/html',
                 value: data.html
             }]
         };
